@@ -9,7 +9,7 @@ This analysis will also compare the 2017 stock performances for the stocks provi
 
 It seems as though 2017 was overall a better performing year for this sector than 2018 was. As you can see, we coded the response so that the stocks that are highlighted in green show a positive performance and the ones that are coded in red show a negative performance. 
 
-![VBA_Challenge_Chart_2017](https://user-images.githubusercontent.com/104734224/173444865-29ff996f-860c-4cd7-920c-b28f10bd0a47.png)
+![VBA_Challenge_Chart_2017](https://user-images.githubusercontent.com/104734224/173445571-1ab7bbe6-f4f3-4825-919a-ab6039a701fa.png)
 
 ![VBA_Challenge_Chart_2018](https://user-images.githubusercontent.com/104734224/173444921-5140557f-5ad2-43b5-b3ce-0392dce81834.png)
 
