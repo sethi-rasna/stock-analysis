@@ -1,8 +1,17 @@
 # VBA Challenge
 
-## Overview of the project 
+## Overview of the project
+
+The purpose of this analysis was to refactor code previously written so that it could be then applied to analysis of these and other stocks over a series of other years. The refactoring was able to cut down the processing time for the analysis so that if further information is added, it will not take as much time for the analysis to run. 
+This analysis will also compare the 2017 stock performances for the stocks provided to the 2018 performances of those stocks.
 
 ### Results
+
+It seems as though 2017 was overall a better performing year for this sector than 2018 was. As you can see, we coded the response so that the stocks that are highlighted in green show a positive performance and the ones that are coded in red show a negative performance. 
+
+VBA_Challenge_Chart_2017.PNG
+
+VBA_Challenge_2018.PNG
 
 #### Summary
 
