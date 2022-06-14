@@ -57,17 +57,21 @@ The refactoring enabled the use of a index variable, which then could be applied
 
 The original code reads as the following:
 
-'4) Loop through tickers
-   For i = 0 To 11
-       ticker = tickers(i)
-       totalVolume = 0
-       '5) loop through rows in the data
-       Worksheets(yearValue).Activate
-       For j = 2 To RowCount
-           '5a) Get total volume for current ticker
-           If Cells(j, 1).Value = ticker Then
+        '4) Loop through tickers
+                 
+                 For i = 0 To 11
+                 ticker = tickers(i)
+                 totalVolume = 0
+                 
+         '5) loop through rows in the data
+                 
+                 Worksheets(yearValue).Activate
+                 For j = 2 To RowCount
+                 
+          '5a) Get total volume for current ticker
+                If Cells(j, 1).Value = ticker Then
 
-               totalVolume = totalVolume + Cells(j, 8).Value
+                        totalVolume = totalVolume + Cells(j, 8).Value
 
 So, instead of setting a for loop for each of the arrayed variables, it makes more sense to set an index and run the arrayed variables individually. 
 
