@@ -86,3 +86,5 @@ Refactoring code enables the benefit of learning different ways to accomplish th
 __2. How do these pros and cons apply to refactors the original VBA script?__
 
 As stated, it was definitely a good learning opportunity to refactor the code in multiple ways. Additionally, a specific limitation with VBA is that with either code, the list of the initially defined variables must be in alphabetically order for the code to work. This presents some issues if working with thousands of different stocks. Futhermore, the code is not completely automated and must be adjusted to include additional information, such as more stocks. However, this code can run for the same set of stocks for multiple years. 
+
+For all analysis and code, please visit https://github.com/sethi-rasna/stock-analysis/blob/de4828b42a9d4e2fa4fea373de574ddffa5b2ba1/VBA_Challenge.xlsm
